@@ -16,12 +16,12 @@ class User {
 
 class Account {
     - number: String
-    - balance: int
+    - balance: double
 
     + deposit(userId: String, number: String, amount: int) boolean
     + withdraw(userId: String, number: String, amount: int) boolean
     + trabsfer(userId: String, fromNumber: String, toNumber: String, amount: int) boolean
-    + computeBalance(userId: String, number: String) int
+    + computeBalance(userId: String, number: String) double
     + searchUser(userId: String) User
 }
 
