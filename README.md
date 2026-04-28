@@ -10,7 +10,7 @@ class User {
 
     + registerUser(id: String, pw: String, name: String, phone: String, address: String) boolean
     + updateUser(id: String, pw: String, name: String, phone: String, address: String) boolean
-    + deketeUser(id: String) boolean
+    + deketeUser(id: String) User
     + searchUser(id: String) User
 }
 
